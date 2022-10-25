@@ -54,6 +54,9 @@
     #products {
         text-align: center;
     }
+    .client-op {
+        width: 60%;
+    }
 }
 
 .title {
