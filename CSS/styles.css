@@ -1,0 +1,129 @@
+#header {
+    background-color: #AA8B56;
+}
+
+.collapse {
+    text-align: right;
+}
+
+.navbar-collapse {
+    text-align: right;
+}
+
+.logo-img {
+    width:70%;
+    border-radius: 100%;
+    padding:3%;
+}
+
+.profile-text {
+    text-align: justify;
+}
+
+.navbar-brand {
+    width: 50px;
+}
+
+.anchor-logo {
+    width: 80%;
+    transform: rotate(30deg);
+}
+
+.container-fluid {
+    padding: 0 15%;
+}
+
+#profile {
+    background-color: #AA8B56;
+    padding: 3% 15% 3%;
+    text-align: justify;
+    color: #fff;
+}
+
+.concord-desc {
+    text-align: justify;
+    padding-bottom: 5%;
+}
+
+.nessy-desc {
+    text-align: justify;
+    padding-bottom: 5%;
+}
+
+@media (max-width: 920px) {
+    #products {
+        text-align: center;
+    }
+}
+.title {
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+.subtitle {
+    padding: 5% 0 5%;
+    text-align: center;
+}
+
+#products {
+    background-color:#fff;
+    padding: 3% 10% 3%;
+}
+
+.nessy-img {
+    width: 70%;
+    border-radius: 10%;
+    padding-bottom: 5%;
+    
+}
+
+.concorde-img {
+    width: 70%;
+    border-radius: 10%;
+    padding-bottom: 5%;
+}
+
+#clients {
+    padding: 5% 15% 5%;
+    background-color: #AA8B56;
+    color:#fff;
+}
+
+.exp-client {
+font-size: 3rem;
+}
+
+.client-op {
+    border-radius: 10%;
+    width: 30%;
+   
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 5%;
+}
+
+#rrss {
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 15% 5%
+}
+
+i {
+    padding:0 5px;
+}
