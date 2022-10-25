@@ -41,17 +41,21 @@
 }
 
 .concord-desc {
-    text-align: justify;
+    text-align: left;
     padding-bottom: 5%;
 }
 
 .nessy-desc {
-    text-align: justify;
+    text-align: left;
     padding-bottom: 5%;
 }
 
 @media (max-width: 920px) {
-    #products {
+    .concorde-img {
+        text-align: center;
+    }
+
+    .nessy-img {
         text-align: center;
     }
 
@@ -100,10 +104,14 @@ p {
 }
 
 #clients {
-    padding: 5% 15% 5%;
     background-color: #AA8B56;
     color:#fff;
     text-align: center;
+    padding-top: 7%;
+}
+
+.carousel-inner {
+    padding: 0 15% 3%;
 }
 
 .exp-client {
