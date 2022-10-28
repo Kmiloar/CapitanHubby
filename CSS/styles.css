@@ -1,5 +1,5 @@
 #header {
-    background-color: #5DD2FE;
+    background-color: #C10100;
 }
 
 .collapse {
@@ -34,7 +34,7 @@
 }
 
 #profile {
-    background-color: #C10100;
+    background-color: #25BCC6;
     padding: 3% 15% 3%;
     text-align: justify;
     color: #fff;
@@ -50,7 +50,7 @@
     padding-bottom: 5%;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 920px) {
     .cpdct {
         text-align: center;
     }
@@ -68,6 +68,10 @@
     }
 
     .nessy-desc {
+        text-align: center;
+    }
+
+    .profile-text {
         text-align: center;
     }
 }
