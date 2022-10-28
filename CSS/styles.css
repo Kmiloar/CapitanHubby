@@ -50,7 +50,7 @@
     padding-bottom: 5%;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 720px) {
     .concorde-img {
         text-align: center;
     }
@@ -61,6 +61,14 @@
 
     .title-carousel {
         font-size: 1.5rem;
+    }
+
+    .concord-desc {
+        text-align:center;
+    }
+
+    .nessy-desc {
+        text-align: center;
     }
 }
 
@@ -121,8 +129,10 @@ font-size: 2.5rem;
 .client-op {
     border-radius: 10%;
     width: 70%;
-    padding-bottom: 5%;
-   
+}
+
+h5 {
+    margin-top: 10%;
 }
 
 .carousel-item {
