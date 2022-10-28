@@ -1,5 +1,5 @@
 #header {
-    background-color: #AA8B56;
+    background-color: #5DD2FE;
 }
 
 .collapse {
@@ -34,7 +34,7 @@
 }
 
 #profile {
-    background-color: #AA8B56;
+    background-color: #C10100;
     padding: 3% 15% 3%;
     text-align: justify;
     color: #fff;
@@ -51,11 +51,11 @@
 }
 
 @media (max-width: 720px) {
-    .concorde-img {
+    .cpdct {
         text-align: center;
     }
 
-    .nessy-img {
+    .pdct {
         text-align: center;
     }
 
@@ -112,7 +112,7 @@ p {
 }
 
 #clients {
-    background-color: #AA8B56;
+    background-color: #25BCC6;
     color:#fff;
     text-align: center;
     padding-top: 7%;
@@ -144,7 +144,7 @@ h2 {
 }
 
 #rrss {
-    background-color: #fff;
+    background-color: #FFD18C;
     text-align: center;
     padding: 5% 15% 5%
 }
