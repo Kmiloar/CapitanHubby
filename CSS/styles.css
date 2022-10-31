@@ -123,7 +123,7 @@ p {
 }
 
 .carousel-inner {
-    padding: 0 15% 3%;
+    padding: 0 15% 5%;
 }
 
 .exp-client {
@@ -155,8 +155,4 @@ h2 {
 
 i {
     padding:0 5px;
-}
-
-.carousel-inner {
-    height: 450px;
 }
