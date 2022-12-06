@@ -17,12 +17,15 @@
     <!--CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section id="header">
+    <section id="header" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="800">
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
         <a class="navbar-brand" href="#profile"><img class="anchor-logo" src="./Imagenes/Logos/anchor.png"></a>
@@ -32,7 +35,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#profile">Inicio</a>
+                    <a class="nav-link active" href="#profile">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#products">Productos</a>
@@ -49,13 +52,18 @@
     </nav>
 </section>
 <section id="profile">
-    <h1 class="title">Capitán Hubby</h1>
+    <h1 class="title" data-aos="zoom-in">Capitán Hubby</h1>
     <div class="container-fluid text-center">
     <div class="row align-items-center">
-    <div class="col-md-6">
+    <div class="col-md-6" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
     <img class="logo-img" src="./Imagenes/Logos/Logo.jpeg" alt="logo">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6" data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500">
     <p class="profile-text"><strong>Ahoy Marineros !!</strong><br>Bienvenidos a Capitán Hubby, somos productores de accesorios en cuero de excelente calidad. Nuestros productos son hechos a mano con materiales seleccionados para resistir el uso y el tiempo, y nuestros diseños son exclusivos y personalizados. Te invitamos a ver nuestros productos y contactarnos por si quieres algún diseño en particular.<br> ¡Buen viento y buena mar!.</p>
     </div>
     </div>
@@ -66,11 +74,11 @@
     <div class="container-fluid">
         <div class="row">
             <div class="pdct col-md-6 align-self-center">
-              <div class= "container">
+              <div class= "container" data-aos="fade-up" data-aos-duration="3000">
         <img class="nessy-img" src="./Imagenes/Productos/nessy.jpg" alt="Nessy">
               </div>
         </div>
-        <div class="col-md-6 align-self-center">
+        <div class="col-md-6 align-self-center" data-aos="fade-down" data-aos-duration="3000">
         <p class="nessy-desc">Ahoy marineros!! ⚓️<br>
             Queremos presentarles a Nessy! Nuestro tarjetero de 3 espacios.
             Cosido a mano y en cuero grueso, es capaz de resistir los más temibles usos.<br>
@@ -78,11 +86,11 @@
             Pregunta por sus distintos colores!.</p>
         </div>
             <div class="pdct col-md-6 align-self-center">
-              <div class = "container">
+              <div class = "container" data-aos="fade-down" data-aos-duration="3000">
                 <img class="concorde-img" src="./Imagenes/Productos/la_concorde.jpg" alt="Concorde">
               </div>
             </div>
-            <div class="col-md-6 align-self-center">
+            <div class="col-md-6 align-self-center" data-aos="fade-up" data-aos-duration="3000">
                 <p class="concord-desc">Ahoy marineros!! ⚓️<br>
                     Queremos presentarles a “la concorde”, nuestro porta pasaporte.
                     Cosido a mano y con 4 espacios independientes, la concorde es ideal para aquellos que quieran viajar y poder llevar consigo sus documentos y tarjetas!<br>
@@ -92,7 +100,9 @@
         </div>
     </div>
 </section>
-<section id="clients">
+<section id="clients" data-aos="fade-up"
+data-aos-easing="linear"
+data-aos-duration="800">
     <h2 class="title-carousel">Fotos de Nuestros Clientes</h2>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -146,7 +156,9 @@
           </button>
         </div>
 </section>
-<section id="rrss">
+<section id="rrss" data-aos="fade-up"
+data-aos-easing="linear"
+data-aos-duration="800">
     <h2>Contáctanos</h2>
     <p>¿Quieres conocer más de nuestros productos, comprar algún diseño personalizado o ver hablar con nosotros?.</p><p>Te dejamos nuestros canales de atención</p>
 
@@ -154,7 +166,9 @@
     <a href="https://wa.me/573177425796?text=Me%20gustaría%20saber%20más%20sobre%20los%20productos"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
 </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script src="./index.js" charset="utf-8"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
